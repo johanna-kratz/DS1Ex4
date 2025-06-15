@@ -43,9 +43,11 @@ import matplotlib.pyplot as plt
 
 my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
 x = range(len(my_list))
-plt.plot(x, my_list)
-plt.show()
+plt.scatter(x, my_list, color="b", label= "unsorted list")
+plt.xlabel("position in list")
+plt.ylabel("number value")
 mergeSort(my_list)
 x = range(len(my_list))
-plt.plot(x, my_list)
+plt.scatter(x, my_list, color= "g", label= "sorted list")
+plt.legend()
 plt.show()
