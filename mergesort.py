@@ -2,7 +2,7 @@ def ASSIGNMENT(new_list, i, old_list, j):
     new_list[i] = old_list[j]
 
 
-def mergeSort(list_to_sort_by_merge):
+def mergeSort(list_to_sort_by_merge): # hää was geht denn hier ab??? wir sollten den code toll kommentieren damit es für uns einfacher ist diesen zu lesen
     if (
         len(list_to_sort_by_merge) > 1
         and not len(list_to_sort_by_merge) < 1
